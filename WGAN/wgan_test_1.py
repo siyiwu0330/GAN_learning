@@ -213,9 +213,9 @@ for epoch in range(num_epochs):
     # For each batch in the dataloader
     for i, data in enumerate(dataloader, 0):
 
-        ############################
-        # (1) Update D network: maximize log(D(x)) + log(1 - D(G(z)))
-        ###########################
+        ######################
+        # (1) Update D network
+        ######################
         ## Train with all-real batch
         netD.zero_grad()
         # Format batch
@@ -252,9 +252,9 @@ for epoch in range(num_epochs):
         for p in netD.parameters():
             p.data.clamp_(-clamp_num, clamp_num)
 
-        ############################
-        # (2) Update G network: maximize log(D(G(z)))
-        ###########################
+        ######################
+        # (2) Update G network
+        ######################
         netG.zero_grad()
         # label.fill_(real_label)  # fake labels are real for generator cost
         # Since we just updated D, perform another forward pass of all-fake batch through D
