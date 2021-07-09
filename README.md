@@ -1,5 +1,5 @@
 # GAN_learning
-项目旨在跑通一些比较经典的GAN模型，其中加入了部分修改
+自己跑了一些比较经典的GAN模型，其中加入了部分修改，并使用统一的anime faces数据集
 
 - [GAN_learning](#gan-learning)
   * [DCGAN](#dcgan)
