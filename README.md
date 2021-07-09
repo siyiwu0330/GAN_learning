@@ -7,7 +7,7 @@
     + [WGAN](#wgan-1)
     + [WGAN-gp](#wgan-gp)
     + [WGAN-div](#wgan-div)
-  * [主要参考](#----)
+  * [主要参考](#主要参考)
 
 
 ## DCGAN
