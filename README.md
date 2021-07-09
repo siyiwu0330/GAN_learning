@@ -1,6 +1,13 @@
 # GAN_learning
 项目旨在跑通一些比较经典的GAN模型，其中加入了部分修改
 
+# 已实现的模型
+## DCGAN
+## WGAN
+- WGAN
+- WGAN-gp
+- WGAN-div
+
 ## 主要参考
 ### 代码参考：
 Pytorch DCGAN的官方文档：
