@@ -15,7 +15,7 @@
 ## DCGAN
 DCGAN基本完全照搬PyTorch官方文档的代码，只在数据处理部分进行了修改
 
-[DCGAN code](https://github.com/NanaKoori/GAN_learning/blob/master/DCGAN/dcgan_test1.py)
+[[DCGAN code]](https://github.com/NanaKoori/GAN_learning/blob/master/DCGAN/dcgan_test1.py)
 
 <br/>dcgan损失函数<br>
 ---
@@ -34,7 +34,7 @@ WGAN在DCGAN的基础上增加了原始的WGAN改进，包括：
 - 使用一个clip对每次参数更新的结果做出了一定的截取
 - 优化器改用了RMSProp
 
-[WGAN_code](https://github.com/NanaKoori/GAN_learning/blob/master/WGAN/wgan_test_1.py)
+[[WGAN_code]](https://github.com/NanaKoori/GAN_learning/blob/master/WGAN/wgan_test_1.py)
 
 <br/>wgan损失函数<br>
 ---
@@ -48,7 +48,7 @@ WGAN在DCGAN的基础上增加了原始的WGAN改进，包括：
 ### WGAN-gp
 WGAN-gp在WGAN的基础上又做了更改，舍弃clip转而采用gradient penalty（梯度惩罚）
 
-[WGAN-gp code](https://github.com/NanaKoori/GAN_learning/blob/master/WGAN/wgan_test_2_wgan_gp.py)
+[[WGAN-gp code]](https://github.com/NanaKoori/GAN_learning/blob/master/WGAN/wgan_test_2_wgan_gp.py)
 
 <br/>wgan-gp损失函数<br>
 ---
@@ -62,7 +62,7 @@ WGAN-gp在WGAN的基础上又做了更改，舍弃clip转而采用gradient penal
 ### WGAN-div
 WGAN-div在WGAN-gp的基础上做出改进，对梯度惩罚的计算方式做出了改进，引入了Wasserstein Divergence（Wasserstein散度）
 
-[WGAN-div code](https://github.com/NanaKoori/GAN_learning/blob/master/WGAN/wgan_test_3_wgan_div.py)
+[[WGAN-div code]](https://github.com/NanaKoori/GAN_learning/blob/master/WGAN/wgan_test_3_wgan_div.py)
 
 <br/>wgan-div损失函数<br>
 ---
