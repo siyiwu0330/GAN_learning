@@ -2,12 +2,21 @@
 项目旨在跑通一些比较经典的GAN模型，其中加入了部分修改
 
 - [GAN_learning](#gan-learning)
-  * [已实现的模型](#------)
-    + [DCGAN](#dcgan)
-    + [WGAN](#wgan)
-      - [WGAN](#wgan-1)
-      - [WGAN-gp](#wgan-gp)
-      - [WGAN-div](#wgan-div)
+  * [DCGAN](#dcgan)
+  * [<br/>dcgan损失函数<br>](#-br--dcgan-----br-)
+  * [<br/>dcgan生成效果</br>](#-br--dcgan------br-)
+  * [WGAN](#wgan)
+    + [WGAN](#wgan-1)
+  * [<br/>wgan损失函数<br>](#-br--wgan-----br-)
+  * [<br/>wgan生成效果</br>](#-br--wgan------br-)
+  * [![image](https://user-images.githubusercontent.com/40969794/125089087-a3d7a380-e100-11eb-93c2-ab576433de21.png)](#--image--https---user-imagesgithubusercontentcom-40969794-125089087-a3d7a380-e100-11eb-93c2-ab576433de21png-)
+    + [WGAN-gp](#wgan-gp)
+  * [<br/>wgan-gp损失函数<br>](#-br--wgan-gp-----br-)
+  * [<br/>wgan-gp生成效果</br>](#-br--wgan-gp------br-)
+  * [![image](https://user-images.githubusercontent.com/40969794/125089458-fadd7880-e100-11eb-96a8-af6bba6572e6.png)](#--image--https---user-imagesgithubusercontentcom-40969794-125089458-fadd7880-e100-11eb-96a8-af6bba6572e6png-)
+    + [WGAN-div](#wgan-div)
+  * [<br/>wgan-div损失函数<br>](#-br--wgan-div-----br-)
+  * [<br/>wgan-div生成效果</br>](#-br--wgan-div------br-)
   * [主要参考](#----)
     + [代码参考：](#-----)
     + [使用数据集：](#------)
@@ -44,6 +53,7 @@ WGAN在DCGAN的基础上增加了原始的WGAN改进，包括：
 <br/>wgan生成效果</br>
 ---
 ![image](https://user-images.githubusercontent.com/40969794/125089087-a3d7a380-e100-11eb-93c2-ab576433de21.png)
+---
 
 ### WGAN-gp
 WGAN-gp在WGAN的基础上又做了更改，舍弃clip转而采用gradient penalty（梯度惩罚）
@@ -57,6 +67,7 @@ WGAN-gp在WGAN的基础上又做了更改，舍弃clip转而采用gradient penal
 <br/>wgan-gp生成效果</br>
 ---
 ![image](https://user-images.githubusercontent.com/40969794/125089458-fadd7880-e100-11eb-96a8-af6bba6572e6.png)
+---
 
 ### WGAN-div
 WGAN-div在WGAN-gp的基础上做出改进，对梯度惩罚的计算方式做出了改进，引入了Wasserstein Divergence（Wasserstein散度）
