@@ -34,7 +34,7 @@ WGAN在DCGAN的基础上增加了原始的WGAN改进，包括：
 - 使用一个clip对每次参数更新的结果做出了一定的截取
 - 优化器改用了RMSProp
 
-[[WGAN_code]](https://github.com/NanaKoori/GAN_learning/blob/master/WGAN/wgan_test_1.py)
+[[WGAN code]](https://github.com/NanaKoori/GAN_learning/blob/master/WGAN/wgan_test_1.py)
 
 <br/>wgan损失函数<br>
 ---
