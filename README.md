@@ -1,9 +1,17 @@
 # GAN_learning
 项目旨在跑通一些比较经典的GAN模型，其中加入了部分修改
 
-[toc]
+- [GAN_learning](#gan-learning)
+  * [已实现的模型](#------)
+    + [DCGAN](#dcgan)
+    + [WGAN](#wgan)
+      - [WGAN](#wgan-1)
+      - [WGAN-gp](#wgan-gp)
+      - [WGAN-div](#wgan-div)
+  * [主要参考](#----)
+    + [代码参考：](#-----)
+    + [使用数据集：](#------)
 
----
 
 ## 已实现的模型
 ### DCGAN
