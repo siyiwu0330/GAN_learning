@@ -9,6 +9,9 @@
     + [WGAN-div](#wgan-div)
   * [主要参考](#主要参考)
 
+## GAN发展概览
+![一图GAN](https://user-images.githubusercontent.com/40969794/125154358-3c673580-e18c-11eb-8fda-aaea1e53ffa9.jpeg)
+
 
 ## DCGAN
 DCGAN基本完全照搬PyTorch官方文档的代码，只在数据处理部分进行了修改
