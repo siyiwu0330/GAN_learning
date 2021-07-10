@@ -1,5 +1,5 @@
 # GAN_learning
-自己跑了一些比较经典的GAN模型，其中加入了部分修改，并使用统一的anime faces数据集
+自己跑了一些比较经典的GAN模型，其中加入了部分修改
 
 - [GAN_learning](#gan-learning)
   * [DCGAN](#dcgan)
@@ -25,6 +25,10 @@ DCGAN基本完全照搬PyTorch官方文档的代码，只在数据处理部分�
 <br/>dcgan生成效果</br>
 ---
 ![image](https://user-images.githubusercontent.com/40969794/125088939-7d196d00-e100-11eb-9533-a1e1e9d1077d.png)
+
+## CycleGAN
+CycleGAN通过增加一个生成网络将生成数据还原为原本数据并计算还原后的数据与原数据相似度的方法，为生成器的生成做出一定限制，实现了无监督风格迁移的模型训练
+
 
 
 ## WGAN
@@ -84,4 +88,8 @@ https://github.com/eriklindernoren/PyTorch-GAN
 
 ### 使用数据集：
 数据集使用kaggle用户提供的数据：
+1. anime-faces
 https://www.kaggle.com/soumikrakshit/anime-faces
+
+2. selfie2anime
+https://www.kaggle.com/arnaud58/selfie2anime
