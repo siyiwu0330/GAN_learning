@@ -89,10 +89,8 @@ https://github.com/eriklindernoren/PyTorch-GAN
 ### 使用数据集：
 数据集使用kaggle用户提供的数据：
 
-anime-faces
-
+anime-faces：
 https://www.kaggle.com/soumikrakshit/anime-faces
 
-selfie2anime
-
+selfie2anime:
 https://www.kaggle.com/arnaud58/selfie2anime
