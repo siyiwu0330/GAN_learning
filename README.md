@@ -14,7 +14,10 @@
 
 
 ## DCGAN
-DCGAN基本完全照搬PyTorch官方文档的代码，只在数据处理部分进行了修改
+DCGAN基本完全照搬PyTorch官方文档的代码，只在数据处理部分进行了修改。DCGAN的结构如下所示，其主要贡献是对生成器以及判别器的网络模型做了修改，使用卷积神替换掉了全连接。
+
+![image](https://user-images.githubusercontent.com/40969794/125156504-5c045b00-e198-11eb-8bcc-7211f95aee43.png)
+
 
 [[DCGAN code]](https://github.com/NanaKoori/GAN_learning/blob/master/DCGAN/dcgan_test1.py)
 
