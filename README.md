@@ -92,5 +92,5 @@ https://github.com/eriklindernoren/PyTorch-GAN
 anime-faces：
 https://www.kaggle.com/soumikrakshit/anime-faces
 
-selfie2anime:
+selfie2anime：
 https://www.kaggle.com/arnaud58/selfie2anime
