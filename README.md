@@ -29,10 +29,6 @@ DCGAN基本完全照搬PyTorch官方文档的代码，只在数据处理部分�
 ---
 ![image](https://user-images.githubusercontent.com/40969794/125088939-7d196d00-e100-11eb-9533-a1e1e9d1077d.png)
 
-## CycleGAN
-CycleGAN通过增加一个生成网络将生成数据还原为原本数据并计算还原后的数据与原数据相似度的方法，为生成器的生成做出一定限制，实现了无监督风格迁移的模型训练
-
-
 
 ## WGAN
 ### WGAN
@@ -79,6 +75,12 @@ WGAN-div在WGAN-gp的基础上做出改进，对梯度惩罚的计算方式做�
 <br/>wgan-div生成效果</br>
 ---
 ![image](https://user-images.githubusercontent.com/40969794/125089744-32e4bb80-e101-11eb-9725-781a2bdb0c36.png)
+
+
+## CycleGAN
+CycleGAN通过增加一个生成网络将生成数据还原为原本数据并计算还原后的数据与原数据相似度的方法，为生成器的生成做出一定限制，实现了无监督风格迁移的模型训练
+
+![image](https://user-images.githubusercontent.com/40969794/125311929-66744f80-e366-11eb-8efc-ce4f2e6eef84.png)
 
 
 ## 主要参考
