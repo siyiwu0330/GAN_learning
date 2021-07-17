@@ -1,5 +1,4 @@
 # -*- coding: utf-8 -*-
-"""WGAN_test_1.ipynb
 
 from __future__ import print_function
 #%matplotlib inline
