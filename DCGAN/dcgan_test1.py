@@ -1,5 +1,4 @@
 # -*- coding: utf-8 -*-
-"""DCGAN_TEST1.ipynb
 
 from __future__ import print_function
 #%matplotlib inline
