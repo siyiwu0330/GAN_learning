@@ -54,7 +54,7 @@ dataset_name = "selfie2anime"
 workers = 2
 
 # Batch size during training
-batch_size = 8
+batch_size = 64
 
 # Spatial size of training images. All images will be resized to this
 #   size using a transformer.
@@ -65,9 +65,9 @@ img_width = 64
 channels = 3
 
 # Number of training epochs
-num_epochs = 50
+num_epochs = 200
 start_epochs = 0
-decay_epochs = 25
+decay_epochs = 100
 
 # Learning rate for optimizers
 lr = 0.0002
@@ -528,4 +528,13 @@ for epoch in range(start_epochs, num_epochs):
         torch.save(G_BA.state_dict(), "%s/saved_models/%s/G_BA_%d.pth" % (data_root, dataset_name, start_epochs))
         torch.save(D_A.state_dict(), "%s/saved_models/%s/D_A_%d.pth" % (data_root, dataset_name, start_epochs))
         torch.save(D_B.state_dict(), "%s/saved_models/%s/D_B_%d.pth" % (data_root, dataset_name, start_epochs))
+
+plt.figure(figsize=(10,5))
+plt.title("Generator and Discriminator Loss During Training")
+plt.plot(G_loss,label="G")
+plt.plot(D_loss,label="D")
+plt.xlabel("iterations")
+plt.ylabel("Loss")
+plt.legend()
+plt.show()
 
