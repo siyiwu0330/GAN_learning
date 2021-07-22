@@ -7,6 +7,7 @@
     + [WGAN](#wgan-1)
     + [WGAN-gp](#wgan-gp)
     + [WGAN-div](#wgan-div)
+    + [CycleGan](#cyclegan)
   * [主要参考](#主要参考)
 
 
@@ -87,6 +88,16 @@ CycleGAN通过增加一个生成网络将生成数据还原为原本数据并计
 这里推荐李宏毅老师的cycleGAN讲解：https://www.youtube.com/watch?v=wulqhgnDr7E
 
 ![image](https://user-images.githubusercontent.com/40969794/125312400-d08cf480-e366-11eb-8be9-db927c9a43a1.png)
+
+<br/>wgan-div损失函数<br>
+---
+![image](https://user-images.githubusercontent.com/40969794/126637044-a7454aec-7848-48fd-8467-f3706ca8f08a.png)
+
+<br/>wgan-div生成效果</br>
+---
+![10000](https://user-images.githubusercontent.com/40969794/126637446-5fd34d7a-20cf-4354-ba3b-cbb0e59695f6.png)
+
+
 
 
 
