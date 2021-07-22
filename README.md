@@ -87,6 +87,8 @@ CycleGAN通过增加一个生成网络将生成数据还原为原本数据并计
 
 这里推荐李宏毅老师的cycleGAN讲解：https://www.youtube.com/watch?v=wulqhgnDr7E
 
+[[CycleGAN code]](https://github.com/NanaKoori/GAN_learning/blob/master/CycleGAN/cyclegan_test_1.py)
+
 ![image](https://user-images.githubusercontent.com/40969794/125312400-d08cf480-e366-11eb-8be9-db927c9a43a1.png)
 
 <br/>wgan-div损失函数<br>
