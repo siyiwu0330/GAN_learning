@@ -80,6 +80,15 @@ WGAN-div在WGAN-gp的基础上做出改进，对梯度惩罚的计算方式做�
 ---
 ![image](https://user-images.githubusercontent.com/40969794/125089744-32e4bb80-e101-11eb-9725-781a2bdb0c36.png)
 
+## PGGAN
+PGGAN的核心理念是将让成器和分类器一步步放大图像的尺寸，从4×4最后放大到1024×1024。生成器和分类器也是放大一次增加一个block。而这个block的设计也是参考了resnet，因为突然放大会导致模型不稳定，用这种方法可以平滑过渡。
+
+![image](https://user-images.githubusercontent.com/40969794/126781273-b222f097-87de-4b0f-8e98-fbe95ef91f91.png)
+
+![image](https://user-images.githubusercontent.com/40969794/126806934-b292346c-995f-4431-b49b-416f64043e30.png)
+
+
+
 
 
 ## CycleGAN
@@ -110,6 +119,9 @@ https://pytorch.org/tutorials/beginner/dcgan_faces_tutorial.html
 
 eriklindernoren/PyTorch-GAN：
 https://github.com/eriklindernoren/PyTorch-GAN
+
+rosinality/progressive-gan-pytorch：
+https://github.com/rosinality/progressive-gan-pytorch
 
 ### 使用数据集：
 数据集使用kaggle用户提供的数据：
